@@ -22,11 +22,10 @@
     <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
-          <!-- Logo -->
           <a class="header-logo link" href="./index.html"
             >Web<span class="logo">Studio</span></a
           >
-          <!-- Menu Nav -->
+
           <ul class="header-nav-list list">
             <li class="header-nav-item">
               <a class="header-nav-link link" href="./index.html">Studio</a>
@@ -42,7 +41,6 @@
           </ul>
         </nav>
 
-        <!-- Contact address -->
         <address class="address">
           <ul class="address-list list">
             <li class="address-item">
@@ -57,6 +55,96 @@
             </li>
           </ul>
         </address>
+
+        <!-- Mobile menu -->
+        <button type="button" class="open-menu-btn" data-menu-open>
+          <svg class="btn-menu-icon" width="32" height="32">
+            <use href="./images/icons.svg#icon-mobile-menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mob-menu is-hidden" data-menu>
+        <div>
+          <button type="button" class="close-menu" data-menu-close>
+            <svg class="close-menu-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+
+          <ul class="mob-nav-list list">
+            <li class="mob-nav-item">
+              <a class="mob-nav-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="mob-nav-item">
+              <a class="mob-nav-link link portfolio" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mob-nav-item">
+              <a class="mob-nav-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <address class="address">
+          <ul class="mob-address-list list">
+            <li class="mob-address-item">
+              <a class="tel-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mob-address-item">
+              <a class="mail-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="mob-soc-list">
+          <li class="mob-soc-item">
+            <a
+              class="mob-soc-link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg class="mob-menu-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-soc-item">
+            <a
+              class="mob-soc-link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg class="mob-menu-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-soc-item">
+            <a
+              class="mob-soc-link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg class="mob-menu-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mob-soc-item">
+            <a
+              class="mob-soc-link"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              ><svg class="mob-menu-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -90,7 +178,7 @@
               <a href="" class="portfolio-ptojects-link link">
                 <div class="projects-block">
                   <img
-                    src="./images/banking-app-interface.jpg"
+                    src="./images/img-bankapp.jpg"
                     alt="Photo with interface of banking application"
                     width="360"
                     height="300"
@@ -113,7 +201,7 @@
               <a href="" class="portfolio-ptojects-link link">
                 <div class="projects-block">
                   <img
-                    src="./images/cashless-payment-with-smartphon.jpg"
+                    src="./images/img-no-cash.jpg"
                     alt="Photo of a cashless easy payment"
                     width="360"
                     height="300"
@@ -134,7 +222,7 @@
               <a href="" class="portfolio-ptojects-link link">
                 <div class="projects-block">
                   <img
-                    src="./images/laptop-and-smartphone.jpg"
+                    src="./images/img-normalcy.jpg"
                     alt="Picture of a application for all your creative needs"
                     width="360"
                     height="300"
@@ -155,7 +243,7 @@
               <a href="" class="portfolio-ptojects-link link">
                 <div class="projects-block">
                   <img
-                    src="./images/close-view-chauffeur-hands-driving.jpg"
+                    src="./images/img-taxi-service.jpg"
                     alt="Photo of a nice car on taxi service"
                     width="360"
                     height="300"
@@ -176,7 +264,7 @@
               <a href="" class="portfolio-ptojects-link link">
                 <div class="projects-block">
                   <img
-                    src="./images/screen-illustrations.jpg"
+                    src="./images/img-screen-illustrations.jpg"
                     alt="Picture of a Screen Illustrations on mobile"
                     width="360"
                     height="300"
@@ -199,7 +287,7 @@
               <a href="" class="portfolio-ptojects-link link">
                 <div class="projects-block">
                   <img
-                    src="./images/smiling-girl-looking-at-smartphone-screen.jpg"
+                    src="./images/img-online-courses.jpg"
                     alt="Photo of a happy girl who used Online Courses"
                     width="360"
                     height="300"
@@ -220,7 +308,7 @@
               <a href="" class="portfolio-ptojects-link link">
                 <div class="projects-block">
                   <img
-                    src="./images/instagram-stories-concept.jpg"
+                    src="./images/img-Instagram-stories-concept.jpg"
                     alt="Picture of a Instagram Stories"
                     width="360"
                     height="300"
@@ -243,7 +331,7 @@
               <a href="" class="portfolio-ptojects-link link">
                 <div class="projects-block">
                   <img
-                    src="./images/organic-food-in-a-bag-in-hand.jpg"
+                    src="./images/img-organic-food.jpg"
                     alt="Photo of a woman with a basket of organic food"
                     width="360"
                     height="300"
@@ -264,7 +352,7 @@
               <a href="" class="portfolio-ptojects-link link">
                 <div class="projects-block">
                   <img
-                    src="./images/fresh-coffee-in-cup.jpg"
+                    src="./images/img-fresh-coffee.jpg"
                     alt="Photo of a barista who draws on coffee"
                     width="360"
                     height="300"
@@ -367,5 +455,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/mobil-menu.js"></script>
   </body>
 </html>
